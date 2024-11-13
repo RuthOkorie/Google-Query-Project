@@ -56,7 +56,7 @@ The dataset used in this project is a sales record from Skillharvest, detailing 
 
 ---
 
-### - Tools Used
+### Tools Used
 
 ---
 

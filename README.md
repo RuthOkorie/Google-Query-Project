@@ -36,9 +36,14 @@ This project designed to gain practical experience with google query sheets, Que
   
 - Data Transformation: Data transformation modifies data into a new format or structure. This might involve converting data types, normalizing (scaling) values, or changing the layout. Transformation is essential when preparing data for analysis, as it ensures that data is consistent and ready for further processing
 
+---
 
+- Getting Started
+---
 
+ git clone https://github.com/RuthOkorie/Google-Query-Project/edit/main/README.md
 
+---
 
 
 

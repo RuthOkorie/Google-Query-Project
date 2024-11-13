@@ -9,9 +9,9 @@ This project designed to gain practical experience with google query sheets, Que
 ### Table of Contents
 
 ---
-- [Overview](overviw)
+- [Overview](overview)
 - [Features](features)
-- [Getting Started](getting-startedd)
+- [Getting Started](getting-started)
 - [Data Source](data-source)
 - [Tools Used](tools-used)
 - [Usage](usage)

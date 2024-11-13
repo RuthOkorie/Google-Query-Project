@@ -38,7 +38,7 @@ This project designed to gain practical experience with google query sheets, Que
 
 ---
 
-- Getting Started
+### Getting Started
 ---
 
  git clone https://github.com/RuthOkorie/Google-Query-Project/edit/main/README.md

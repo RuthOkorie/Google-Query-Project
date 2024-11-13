@@ -26,6 +26,8 @@ This project designed to gain practical experience with google query sheets, Que
 
 ### Features
 
+---
+
 - Data Filtering: This involves selecting a subset of data based on specific criteria. For example, you might want to view only sales data for a certain year or customers in a specific region. Filtering helps narrow down large datasets to focus on relevant information.
 
 - Data Sorting: Sorting arranges data in a particular order, usually ascending or descending. For instance, you can sort customer data by name alphabetically or sort transactions by date. Sorting makes it easier to analyze and find patterns within the data.
@@ -48,7 +50,30 @@ This project designed to gain practical experience with google query sheets, Que
 
 ### Data Source
 
-The dataset used in this project is a sales record from Skillharvest, detailing essential information such as regions, sales representatives, items sold, order dates, and total sales. This dataset provides a solid foundation for analyzing sales performance across different dimensions, offering insights into regional trends, sales rep efficiency, and product demand. It's a free  online dataset. [Download Here]( 
+---
+
+The dataset used in this project is a sales record from Skillharvest, detailing essential information such as regions, sales representatives, items sold, order dates, and total sales. This dataset provides a solid foundation for analyzing sales performance across different dimensions, offering insights into regional trends, sales rep efficiency, and product demand. It's a free  online dataset. [Download Here](https://docs.google.com/spreadsheets/d/14PAdrDS1FkJNgUKe2W7TKwXkZ2HzL5nwG_mItqNXSEE/edit?gid=1710517431#gid=1710517431) 
+
+---
+
+### - Tools Used
+
+---
+
+Google Sheets: The primary tool used for data manipulation, filtering, and aggregation.
+
+Google Sheets QUERY Function: Utilized for efficient data extraction, filtering, sorting, and aggregation.
+
+GitHub: Used for sharing and documenting the project, with visual examples and code snippets included for clarity.
+
+---
+
+
+
+
+
+
+
 
 
 

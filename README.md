@@ -1,14 +1,17 @@
 ### Google Query Project
 
 ---
+
 ### Overview
  
 This project designed to gain practical experience with google query sheets, Query syntax, an essential resource for data filtering, data sorting, data aggregation and data joining. This repository provides a collection of sample datasets and examples to help users master the QUERY functions in google sheets, unlocking advanced data analysis capabilities. 
 
 ---
+
 ### Table of Contents
 
 ---
+
 - [Overview](#overview)
 - [Features](#features)
 - [Getting Started](#getting-started)
@@ -20,6 +23,7 @@ This project designed to gain practical experience with google query sheets, Que
 - [Conclusion](#conclusion)
 
 ---
+
 ### Features
 
 - Data Filtering: This involves selecting a subset of data based on specific criteria. For example, you might want to view only sales data for a certain year or customers in a specific region. Filtering helps narrow down large datasets to focus on relevant information.

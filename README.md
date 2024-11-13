@@ -39,13 +39,16 @@ This project designed to gain practical experience with google query sheets, Que
 ---
 
 ### Getting Started
+
 ---
 
  git clone https://github.com/RuthOkorie/Google-Query-Project/edit/main/README.md
 
 ---
 
+### Data Source
 
+The dataset used in this project is a sales record from Skillharvest, detailing essential information such as regions, sales representatives, items sold, order dates, and total sales. This dataset provides a solid foundation for analyzing sales performance across different dimensions, offering insights into regional trends, sales rep efficiency, and product demand. It's a free  online dataset. [Download Here]( 
 
 
 

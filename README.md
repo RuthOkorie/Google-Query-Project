@@ -9,15 +9,15 @@ This project designed to gain practical experience with google query sheets, Que
 ### Table of Contents
 
 ---
-- [Overview](overview)
-- [Features](features)
-- [Getting Started](getting-started)
-- [Data Source](data-source)
-- [Tools Used](tools-used)
-- [Usage](usage)
-  - [Example Queries](example-queries)
-- [Findings and Insights](findings-and-insights)
-- [Conclusion](conclusion)     
+- [Overview](#overview)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Data Source](#data-source)
+- [Tools Used](#tools-used)
+- [Usage](#usage)
+  - [Example Queries](#example-queries)
+- [Findings and Insights](#findings-and-insights)
+- [Conclusion](#conclusion)
 
 ---
 ### Features

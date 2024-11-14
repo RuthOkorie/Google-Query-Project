@@ -18,7 +18,7 @@ This project designed to gain practical experience with google query sheets, Que
 - [Data Source](#data-source)
 - [Tools Used](#tools-used)
 - [Usage](#usage)
-  - [Example Queries](#example-queries)
+- [Queries Example](#queries-example)
 - [Findings and Insights](#findings-and-insights)
 - [Conclusion](#conclusion)
 
@@ -72,31 +72,99 @@ GitHub: Used for sharing and documenting the project, with visual examples and c
 In this section, I’ve included images of the dataset and highlighted key data points to showcase the use of the QUERY function in Google Sheets. Each example demonstrates practical applications for data manipulation, filtering, and aggregation using QUERY, making it easy to extract meaningful insights from complex data.
 
 ---
-### Queries Exmaple
+### Queries Example
 ---
 
  ![Main sheet](https://github.com/user-attachments/assets/fdada2f8-4dd5-46bb-905b-13a5407a77a6)
   
-   This image shows the  dataset used in these examples.
+   **This image shows the  dataset used in these examples**
 
 ### Example one QUERY Function
 
 1.  ![Screenshot 2024-11-14 134745](https://github.com/user-attachments/assets/2fbd8f27-ebef-4574-a5df-1ad1dac9f749)
+
+    **This image shows the two data points extracted using the QUERY functions below**
+    
  - i. The Region, Sales_rep, and Sales Data Point was extracted using the following Query function;
 
-   = QUERY(A:H, "SELECT A, B, H", 1)
+   ```
+      = QUERY(A:H, "SELECT A, B, H", 1)
+   ```
 
+ - ii. The Item and Year Data Point was extracted using the following Query function;
+     
+   ```
+      = QUERY(A:H,"SELECT C, F",1)
+   ```
 
- 
+---
 
+2.  ![Screenshot 2024-11-14 135020](https://github.com/user-attachments/assets/7deb17ff-a775-4c75-a556-1e992132b914)
+  
+    **This image shows the two data points extracted using the QUERY functions below**
+    
+  - i. The Month and Year Data Point was extracted using the following Query function;
 
+    ```
+      = QUERY(A:H,"SELECT E, F", 1)
+    ```
 
+   - ii. The Sales_rep, Item and OrderDate was extracted using the following Query function;
 
+     ```
+       = QUERY(B:D, "SELECT B, C, D",1)
+     ```
+---  
 
+3.  ![Screenshot 2024-11-14 135112](https://github.com/user-attachments/assets/ab7f3c1c-19ae-489f-8ad6-7c63b3de7719)
+4.  
+    **This image shows the two data points extracted using the QUERY functions below**
+    
+  - i. The Region and Sales Data Point, where Sales is less than 100 was extracted using the following Query function;
 
+     ```
+       = QUERY((A:H,"SELECT A,H WHERE H>100")
+     ```
+     
+  - ii. The Region, Item and Year, where Year is equals 2014 was extracted using the following Query function;
 
+     ```
+       = QUERY(A:H,"SELECT A,C,F WHERE F=2014")
+    ```
+---
 
+4. ![Screenshot 2024-11-14 135621](https://github.com/user-attachments/assets/aafb3971-4ffc-4431-8a1a-8cc19f62ce53)
+  
+   **This image shows the two data points extracted using the QUERY functions below**
+   
+  - i. The Sales that happened in 2015 and their Region was extracted using the following Query function;
 
+     ```
+       = QUERY(A:H,"SELECT A, F ,H WHERE F=2015",1)
+     ```
+  - ii. The Sales of Items that is not 825 or 250 was calculated using the following Query function;
+
+     ```
+       = QUERY(A:H,"SELECT C, H WHERE H<>825 AND H<>250",1)
+     ```
+---
+
+5. ![pic](https://github.com/user-attachments/assets/10efd59a-ee64-4a70-a77f-045dc7a81c43)
+
+   **This image shows the two data points extracted using the QUERY functions below**
+   
+  - i. The Region, Sales_rep and Sales where Region equals East or West was calculated using the following Query function;
+
+     ```
+       = QUERY(A:H,"SELECT A,B,H WHERE A= 'East' OR A= 'West'",1)
+     ```
+---
+
+### Findings and Insights
+
+---
+   jh
+   
 
 
 

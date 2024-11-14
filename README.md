@@ -67,13 +67,27 @@ Google Sheets QUERY Function: Utilized for efficient data extraction, filtering,
 GitHub: Used for sharing and documenting the project, with visual examples and code snippets included for clarity.
 
 ---
+### Usage
+---
+In this section, I’ve included images of the dataset and highlighted key data points to showcase the use of the QUERY function in Google Sheets. Each example demonstrates practical applications for data manipulation, filtering, and aggregation using QUERY, making it easy to extract meaningful insights from complex data.
+
+---
+### Queries Exmaple
+---
+
+ ![Main sheet](https://github.com/user-attachments/assets/fdada2f8-4dd5-46bb-905b-13a5407a77a6)
+  
+   This image shows the  dataset used in these examples.
+
+### Example one QUERY Function
+
+1.  ![Screenshot 2024-11-14 134745](https://github.com/user-attachments/assets/2fbd8f27-ebef-4574-a5df-1ad1dac9f749)
+ - i. The Region, Sales_rep, and Sales Data Point was extracted using the following Query function;
+
+   = QUERY(A:H, "SELECT A, B, H",1)
 
 
-
-
-
-
-
+ 
 
 
 

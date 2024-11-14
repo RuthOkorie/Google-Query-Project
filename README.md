@@ -18,7 +18,7 @@ This project designed to gain practical experience with google query sheets, Que
 - [Data Source](#data-source)
 - [Tools Used](#tools-used)
 - [Usage](#usage)
-- [Queries Example](#queries-example)
+   - [Queries Example](#queries-example)
 - [Findings and Insights](#findings-and-insights)
 - [Conclusion](#conclusion)
 
@@ -77,9 +77,9 @@ In this section, I’ve included images of the dataset and highlighted key data 
 
  ![Main sheet](https://github.com/user-attachments/assets/fdada2f8-4dd5-46bb-905b-13a5407a77a6)
   
-   **This image shows the  dataset used in these examples**
+   **This image shows the  dataset used in the examples below**
 
-### Example one QUERY Function
+  ---
 
 1.  ![Screenshot 2024-11-14 134745](https://github.com/user-attachments/assets/2fbd8f27-ebef-4574-a5df-1ad1dac9f749)
 
@@ -117,7 +117,7 @@ In this section, I’ve included images of the dataset and highlighted key data 
 ---  
 
 3.  ![Screenshot 2024-11-14 135112](https://github.com/user-attachments/assets/ab7f3c1c-19ae-489f-8ad6-7c63b3de7719)
-4.  
+  
     **This image shows the two data points extracted using the QUERY functions below**
     
   - i. The Region and Sales Data Point, where Sales is less than 100 was extracted using the following Query function;
@@ -159,11 +159,10 @@ In this section, I’ve included images of the dataset and highlighted key data 
        = QUERY(A:H,"SELECT A,B,H WHERE A= 'East' OR A= 'West'",1)
      ```
 ---
-
 ### Findings and Insights
-
 ---
-   jh
+
+   
    
 
 

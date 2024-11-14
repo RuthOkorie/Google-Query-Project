@@ -84,7 +84,7 @@ In this section, I’ve included images of the dataset and highlighted key data 
 1.  ![Screenshot 2024-11-14 134745](https://github.com/user-attachments/assets/2fbd8f27-ebef-4574-a5df-1ad1dac9f749)
  - i. The Region, Sales_rep, and Sales Data Point was extracted using the following Query function;
 
-   = QUERY(A:H, "SELECT A, B, H",1)
+   = QUERY(A:H, "SELECT A, B, H", 1)
 
 
  
